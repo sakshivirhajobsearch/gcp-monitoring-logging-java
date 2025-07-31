@@ -12,7 +12,7 @@
 		<dependency>
 			<groupId>com.google.cloud</groupId>
 			<artifactId>google-cloud-logging</artifactId>
-			<version>3.21.0</version> <!-- or latest -->
+			<version>3.17.1</version> <!-- or latest -->
 		</dependency>
 		<!-- GCP Monitoring -->
 		<dependency>

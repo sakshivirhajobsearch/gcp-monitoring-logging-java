@@ -14,6 +14,7 @@ import java.util.HashMap;
 public class MonitoringExample {
 
 	public static void sendCustomMetric() throws IOException {
+		
 		try (MetricServiceClient client = MetricServiceClient.create()) {
 			String projectId = "your-project-id";
 			ProjectName name = ProjectName.of(projectId);
